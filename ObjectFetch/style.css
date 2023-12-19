@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 3pc;
+    gap: 1pc;
+    height: 100vH;
+    width: 100vW;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 4px 0px gray;
+}
+
+.UserData {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mainData {
+    border: 1px solid gray;
+    padding: 15px;
+    /* height: 50vh; */
+    width: max-content;
+    gap: 1p;
+    border-radius: 9px;
+    box-shadow: 0px 1px 7px 0px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
